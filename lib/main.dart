@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
 
   Widget _buildImageColumn(){
     return Container(
-      decoration: const BoxDecoration(color: Colors.black26),
+      decoration: const BoxDecoration(color: Colors.amber),
       child: Column(
         children: [
           Expanded(child: _buildImageRow(1)),
